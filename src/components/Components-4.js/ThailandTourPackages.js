@@ -1,0 +1,136 @@
+import "../../App.css";
+import "../../css/HoneyMoon.css";
+import "../../css/Thailand.css";
+import "../../css/Comman.css";
+
+
+import React from "react";
+
+import { Link } from "react-router-dom";
+
+// images
+import Navigation from "../Navigation";
+import Footer from "../Footer";
+
+function ThailandTourPackages() {
+  return (
+    <div className="ThailandTourPackages">
+      <Navigation />
+      <div className="thailand-home">
+        <h1>Thailand Vacation Packages</h1>
+        <p>
+          Discover ancient ruins and relaxing beach resorts and buddhist temples
+        </p>
+        <a href="">
+          <button className="head-button">
+            View All Packages{" "}
+            <span class="material-symbols-outlined">
+              keyboard_double_arrow_down
+            </span>
+          </button>
+        </a>
+      </div>
+      <div className="Thailand-content margin">
+        <div className="container">
+          <h1 className="head-content">Thailand Honeymoon Packages</h1>
+          <p className="head-para-content">
+            A fun-filled, brimming with culture, history and natural wonders,
+            this Land of a Thousand Smiles is ripe with countless travel
+            temptations and with the advent of Thailand Tourism, it has emerged
+            as a magnet for tourists across the world. This kingdom of amazement
+            truly is a wondrous place to endure it all. You will be able to
+            discover some of the spectacular tourist places in Thailand that
+            will make you go in awe of this vivid South-East Asian jewel.
+          </p>
+          <p className="head-para-content">
+            Mainly Bangkok, Phi Phi Islands, and Phuket are the most included
+            destinations in the Thailand tour packages. Apart from these, a lot
+            of countryside destinations and little-known places like the UNESCO
+            city of Ayutthaya, the gateway to the Golden Triangle Chiang Rai,
+            Railay Beach or the secluded island of Koh Kood are coming into the
+            limelight as the promising tourist spots.
+          </p>
+          <p className="head-para-content">
+            If you keep your eyes open for the unknown and have the heart to
+            explore the undiscovered, then there are a lot of things to do in
+            Thailand that you can enjoy during your vacation here. The
+            intriguing Thailand shopping, Scuba diving in the Andaman sea,
+            Elephant bathing & feeding at several national parks, and visiting
+            several Buddhist temples like Wat Phra & Wat Arun are a plateful of
+            the attractions that suit everyone’s taste.
+          </p>
+        </div>
+      </div>
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <div id="frame"></div>
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>Spectacular Krabi and Phuket Getaway</h5>
+                <ul>
+                  <li>
+                    Experience the most exciting short vacation in Thailand.
+                    Climb rocks, explore mangrove forests in Krabi and
+                    rejuvenate on the beautiful beaches of Phuket.
+                  </li>
+                  <strong>5 Nights : 6 Days</strong>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        2 Hotels
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        4 activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        1 Transfers
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        2 Flights
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starts From</strong>
+                    </h6>
+                    <p>
+                      ₹51,498 <span>/Person</span>
+                    </p>
+                    <Link to={"/ThailandTourPackagesPlan"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+export default ThailandTourPackages;
