@@ -4,8 +4,13 @@ import "../../css/HoneyMoon.css";
 
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 // images
-// import singapore from "../../img/Singapore HoneyMoon/singapore.avif";
+import Nishat_Bagh from "../../img/KashmirTourPackages/Nishat Bagh.jpeg";
+import House_boat from "../../img/KashmirTourPackages/House-boat.webp";
+import p2 from "../../img/KashmirTourPackages/p2.webp";
+import p4 from "../../img/KashmirTourPackages/p4.jpeg";
 
 import Navigation from "../Navigation";
 import Footer from "../Footer";
@@ -28,7 +33,7 @@ function KashmirTourPackages() {
           </button>
         </a>
       </div>
-      {/* <div className="Thailand-content margin">
+      <div className="Thailand-content margin">
         <div className="container">
           <h1 className="head-content">Family Tour Packages</h1>
           <p className="head-para-content">
@@ -60,21 +65,19 @@ function KashmirTourPackages() {
           <div className="tour-package-card margins">
             <div className="row">
               <div className="col-lg-4 col-md-3 col-sm-12">
-                <img src={singapore} alt="" />
+                <img src={Nishat_Bagh} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Lovely 10 Days Honeymoon Package to Singapore</h5>
+                <h5>Mystical Kashmir Vacation</h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    Experience the colourful culture of Kashmir on this
+                    vacation. Indulge in a relaxing houseboat stay over the
+                    scenic lake in Srinagar, trek to Ningle Nallah in Gulmarg
+                    and camp at the picturesque Lidder Valley in Pahalgam.
                   </li>
-                  <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
-                  </li>
-                  <b>9 nights: Singapore </b>
+
+                  <b>5 nights: 6 Days</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -84,14 +87,33 @@ function KashmirTourPackages() {
                         <span class="material-symbols-outlined tick">
                           check_circle
                         </span>
-                        3 Hotels
-                      </span>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        4 Hotels
+                      </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <span>
                         <span class="material-symbols-outlined tick">
                           check_circle
                         </span>
-                        8 Activities
+                        2 FLIGHTS
+                      </span>{" "}
+                     <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        5 TRANSFERS
+                      </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        7 Activities
+                      </span><br />
+                      
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Food
                       </span>
                     </ul>
                   </div>
@@ -102,14 +124,241 @@ function KashmirTourPackages() {
                     <p>
                       ₹53,192 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/KashmirTourPackagesPlan"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <img src={House_boat} alt="" />
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>Magnificent Kashmir Holiday</h5>
+                <ul>
+                  <li>
+                    Unwind in the verdant valleys of Kashmir with this week-long
+                    vacation! Stay at a traditional houseboat in Srinagar, ride
+                    the Gulmarg Gondola and visit Pahalgam valleys.
+                  </li>
+
+                  <b>6 nights: 7 Days</b>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        4 Hotels
+                      </span>{" "}
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        2 FLIGHTS
+                      </span>{" "}
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        6 TRANSFERS
+                      </span>{" "}
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        8 Activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Food
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starting From</strong>
+                    </h6>
+                    <p>
+                      ₹42,505 <span>/Person</span>
+                    </p>
+                    <Link to={"/KashmirTourPackagesPlan"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <img src={p2} alt="" />
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>Delightful Kashmir Holiday</h5>
+                <ul>
+                  <li>
+                    Explore the charming cities of Kashmir with this special
+                    package including flights. Visit Nishat Bagh in Srinagar,
+                    enjoy skiing in Gulmarg and visit Pahalgam valley.
+                  </li>
+
+                  <b>6 nights: 7 Days</b>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        4 Hotels
+                      </span>{" "}
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        2 FLIGHTS
+                      </span>{" "}
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        6 TRANSFERS
+                      </span>{" "}
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        9 Activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Food
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starting From</strong>
+                    </h6>
+                    <p>
+                      ₹40,435 <span>/Person</span>
+                    </p>
+                    <Link to={"/KashmirTourPackagesPlan"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <img src={p4} alt="" />
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>Dreamy Kashmir Vacation</h5>
+                <ul>
+                  <li>
+                    Discover the magic of Kashmir on this vacation. Admire the
+                    Dal Lake in Srinagar, explore the beautiful valleys of
+                    Gulmarg and enjoy white water rafting in Pahalgam.
+                  </li>
+
+                  <b>5 nights: 6 Days</b>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        4 Hotels
+                      </span>{" "}
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        2 FLIGHTS
+                      </span>{" "}
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        5 TRANSFERS
+                      </span>{" "}
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        7 Activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Food
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starting From</strong>
+                    </h6>
+                    <p>
+                      ₹39,575 <span>/Person</span>
+                    </p>
+                    <Link to={"/KashmirTourPackagesPlan"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );

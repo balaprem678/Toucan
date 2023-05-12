@@ -33,6 +33,8 @@ import SingaporeTourPackages from "./components/Components-4.js/SingaporeTourPac
 import KashmirTourPackages from "./components/Components-4.js/KashmirTourPackages";
 
 import ThailandTourPackagesPlan from "./components/Components-5.js/ThailandTourPackagesPlan";
+import DubaiTourPackagesPlan from "./components/Components-5.js/DubaiTourPackagesPlan";
+import KashmirTourPackagesPlan from "./components/Components-5.js/KashmirTourPackagesPlan";
 
 export default function Routeslist() {
   return (
@@ -66,6 +68,8 @@ export default function Routeslist() {
           <Route path="/KashmirTourPackages" element={<KashmirTourPackages />} />
 
           <Route path="/ThailandTourPackagesPlan" element={<ThailandTourPackagesPlan />} />
+          <Route path="/DubaiTourPackagesPlan" element={<DubaiTourPackagesPlan />} />
+          <Route path="/KashmirTourPackagesPlan" element={<KashmirTourPackagesPlan />} />
           
 
         </Routes>

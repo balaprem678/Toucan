@@ -34,7 +34,7 @@ function SingaporeHoneyMoon() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Dubai Honeymoon Packages</h1>
+          <h1 className="head-content">Singapore Honeymoon Packages</h1>
           <p className="head-para-content">
             How can you perfect a Singapore honeymoon trip? Be it watching the
             sunset at Changi Point Coastal walk, dining at soaring heights of

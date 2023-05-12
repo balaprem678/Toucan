@@ -341,7 +341,7 @@
 /* Down Scroll End */
 /* Card Hover Start */
 
-.container {
+.containered {
   width: 90%;
   max-width: 1260px;
   margin: 0 auto;
@@ -487,7 +487,7 @@
   }
   .card:hover:before,
   .card:focus-within:before {
-    transform: translateY(-4%); 
+    transform: translateY(-4%);
   }
   .card:hover:after,
   .card:focus-within:after {
@@ -729,6 +729,8 @@
 
 /* Family Packages End */
 /* Family Plan Packages Start */
+.KashmirTourPackagesPlan .tour-packages .rate-deal img,
+.DubaiTourPackagesPlan .tour-packages .rate-deal img,
 .ThailandTourPackagesPlan .tour-packages .rate-deal img,
 .GujaratPlan .tour-packages .rate-deal img,
 .ShillongPlan .tour-packages .rate-deal img,
@@ -737,6 +739,8 @@
   height: 5vh;
   margin: 13px 0;
 }
+.KashmirTourPackagesPlan .tour-packages .rate-deal,
+.DubaiTourPackagesPlan .tour-packages .rate-deal,
 .ThailandTourPackagesPlan .tour-packages .rate-deal,
 .GujaratPlan .tour-packages .rate-deal,
 .ShillongPlan .tour-packages .rate-deal,
@@ -744,6 +748,8 @@
   padding: 0 0 0 5%;
   text-align: center;
 }
+.KashmirTourPackagesPlan .tour-packages .tour-packages img,
+.DubaiTourPackagesPlan .tour-packages .tour-packages img,
 .ThailandTourPackagesPlan .tour-packages .tour-packages img,
 .GujaratPlan .tour-packages .tour-packages img,
 .ShillongPlan .tour-packages .tour-packages img,
@@ -752,6 +758,8 @@
   /* height: 40vh; */
   border-radius: 20px 0px 0px 20px;
 }
+.KashmirTourPackagesPlan .tour-packages .tour-packages .left-img,
+.DubaiTourPackagesPlan .tour-packages .tour-packages .left-img,
 .ThailandTourPackagesPlan .tour-packages .tour-packages .left-img,
 .GujaratPlan .tour-packages .tour-packages .left-img,
 .ShillongPlan .tour-packages .tour-packages .left-img,
@@ -760,6 +768,8 @@
   /* height: 40vh; */
   border-radius: 3px 20px 20px 3px;
 }
+.KashmirTourPackagesPlan .tour-packages .content-section,
+.DubaiTourPackagesPlan .tour-packages .content-section,
 .ThailandTourPackagesPlan .tour-packages .content-section,
 .GujaratPlan .tour-packages .content-section,
 .ShillongPlan .tour-packages .content-section,
@@ -768,3 +778,24 @@
   color: #2c2f6c;
 }
 /* Family Plan Packages End */
+
+.KashmirTourPackagesPlan .tour-packages .media-page,
+.DubaiTourPackagesPlan .tour-packages .media-page {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin: 35px 0px;
+}
+.KashmirTourPackagesPlan .tour-packages .media-page:hover,
+.DubaiTourPackagesPlan .tour-packages .media-page:hover {
+  box-shadow: 0px 15px 50px 0px #70686842;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  bottom: 3px;
+}
+.KashmirTourPackagesPlan .tour-packages .left-img,
+.DubaiTourPackagesPlan .tour-packages .left-img {
+  width: 100%;
+  height: 50vh;
+  border-radius: 3px 20px 20px 3px;
+}

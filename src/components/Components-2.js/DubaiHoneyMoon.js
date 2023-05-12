@@ -4,13 +4,14 @@ import "../../css/HoneyMoon.css";
 
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 // images
 
 import dubai from "../../img/dubai-honey-moon/dubai.avif";
 import BlueWaters_Final from "../../img/dubai-honey-moon/BlueWaters_Final.avif";
 import dubai_2 from "../../img/dubai-honey-moon/dubai-2.avif";
 import dubai_1 from "../../img/dubai-honey-moon/dubai-1.avif";
-
 
 import Navigation from "../Navigation";
 import Footer from "../Footer";
@@ -113,7 +114,9 @@ function DubaiHoneyMoon() {
                     <p>
                       ₹89,390 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/DubaiTourPackagesPlan"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -175,7 +178,9 @@ function DubaiHoneyMoon() {
                     <p>
                       ₹1,36,169 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/DubaiTourPackagesPlan"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -191,7 +196,10 @@ function DubaiHoneyMoon() {
                 <img src={dubai_2} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>6 nights 7 days Relaxing United Arab Emirates attraction Tour Package for Couple</h5>
+                <h5>
+                  6 nights 7 days Relaxing United Arab Emirates attraction Tour
+                  Package for Couple
+                </h5>
                 <ul>
                   <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
@@ -202,7 +210,7 @@ function DubaiHoneyMoon() {
                     Single delight -04 island with lunch by speedboat exclude
                     island fee
                   </li>
-                  <b>6 nights:  Dubai</b>
+                  <b>6 nights: Dubai</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -237,7 +245,9 @@ function DubaiHoneyMoon() {
                     <p>
                       ₹85,104 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/DubaiTourPackagesPlan"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -253,7 +263,11 @@ function DubaiHoneyMoon() {
                 <img src={dubai_1} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>5 nights 6 days United Arab Emirates Package for Couple with Miracle Garden - A Walk Through World’s Largest Natural Flower Garden</h5>
+                <h5>
+                  5 nights 6 days United Arab Emirates Package for Couple with
+                  Miracle Garden - A Walk Through World’s Largest Natural Flower
+                  Garden
+                </h5>
                 <ul>
                   <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
@@ -264,7 +278,7 @@ function DubaiHoneyMoon() {
                     Single delight -04 island with lunch by speedboat exclude
                     island fee
                   </li>
-                  <b>5 nights:  Dubai</b>
+                  <b>5 nights: Dubai</b>
                 </ul>
                 <div className="include-activity">
                   <div>

@@ -73,7 +73,7 @@ function Home() {
         </div>
 
         <div className="countrys-card margin" id="countrys-card">
-          <div className="container">
+          <div className="containered">
             <h1>South East Asia</h1>
             <OwlCarousel
               className="owl-theme"
@@ -95,6 +95,9 @@ function Home() {
                 },
                 1024: {
                   items: "3",
+                },
+                1366: {
+                  items: "4",
                 },
               }}
               autoPlay={true}
