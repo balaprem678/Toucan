@@ -3,6 +3,9 @@ import "../../css/HoneyMoon.css";
 import "../../css/Thailand.css";
 import "../../css/Comman.css";
 
+import p1 from "../../img/Thailand/3/p1.webp";
+import p2 from "../../img/Thailand/3/p2.jpg";
+import p6 from "../../img/Thailand/3/p6.webp";
 
 import React from "react";
 
@@ -66,7 +69,7 @@ function ThailandTourPackages() {
           <div className="tour-package-card margins">
             <div className="row">
               <div className="col-lg-4 col-md-3 col-sm-12">
-                <div id="frame"></div>
+                <img src={p1} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
                 <h5>Spectacular Krabi and Phuket Getaway</h5>
@@ -118,7 +121,167 @@ function ThailandTourPackages() {
                     <p>
                       ₹51,498 <span>/Person</span>
                     </p>
-                    <Link to={"/ThailandTourPackagesPlan"} className="nav-link">
+                    <Link
+                      to={"/ThailandTourPackagesPlan1"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <img src={p2} alt="" />
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>Love in Bangkok Pattaya</h5>
+                <ul>
+                  <li>
+                    Welcome to Thailand, one of Asia’s most Visited cities, full
+                    of culture and history. Upon arrival, driver meets you at
+                    the airport and take you to the hotel in Pattaya.
+                  </li>
+                  <strong>4 Nights : 5 Days</strong>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Hotels
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Transfers
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Flights
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Food
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starts From</strong>
+                    </h6>
+                    <p>
+                      ₹51,498 <span>/Person</span>
+                    </p>
+                    <Link
+                      to={"/ThailandTourPackagesPlan2"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <img src={p6} alt="" />
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>The Best of Pattaya & Bangkok</h5>
+                <ul>
+                  <li>
+                    Discover the bright city life of Thailand on this short
+                    trip. Witness the fun pub-hopping scenes on the magical
+                    beaches of Pattaya and immerse yourself in the rich culture
+                    of Bangkok.
+                  </li>
+                  <strong>5 Nights : 6 Days</strong>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Hotels
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Transfers
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Flights
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Food
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starts From</strong>
+                    </h6>
+                    <p>
+                      ₹15,261 <span>/Person</span>
+                    </p>
+                    <Link
+                      to={"/ThailandTourPackagesPlan2"}
+                      className="nav-link"
+                    >
                       <button className="view-deal">View All Plan</button>
                     </Link>
                   </div>

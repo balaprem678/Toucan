@@ -30,6 +30,7 @@
 /* Tour Packages Start */
 .tour-packages {
   padding: 3% 0 0 0;
+  position: relative;
 }
 .tour-packages .margins {
   background: none;

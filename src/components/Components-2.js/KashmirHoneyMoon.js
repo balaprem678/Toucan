@@ -7,10 +7,6 @@ import React from "react";
 // images
 
 import dubai from "../../img/dubai-honey-moon/dubai.avif";
-import BlueWaters_Final from "../../img/dubai-honey-moon/BlueWaters_Final.avif";
-import dubai_2 from "../../img/dubai-honey-moon/dubai-2.avif";
-import dubai_1 from "../../img/dubai-honey-moon/dubai-1.avif";
-
 
 import Navigation from "../Navigation";
 import Footer from "../Footer";

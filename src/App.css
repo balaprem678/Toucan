@@ -729,6 +729,7 @@
 
 /* Family Packages End */
 /* Family Plan Packages Start */
+.SingaporeTourPackagesPlan .tour-packages .rate-deal img,
 .KashmirTourPackagesPlan .tour-packages .rate-deal img,
 .DubaiTourPackagesPlan .tour-packages .rate-deal img,
 .ThailandTourPackagesPlan .tour-packages .rate-deal img,
@@ -739,6 +740,7 @@
   height: 5vh;
   margin: 13px 0;
 }
+.SingaporeTourPackagesPlan .tour-packages .rate-deal,
 .KashmirTourPackagesPlan .tour-packages .rate-deal,
 .DubaiTourPackagesPlan .tour-packages .rate-deal,
 .ThailandTourPackagesPlan .tour-packages .rate-deal,
@@ -748,6 +750,7 @@
   padding: 0 0 0 5%;
   text-align: center;
 }
+.SingaporeTourPackagesPlan .tour-packages .tour-packages img,
 .KashmirTourPackagesPlan .tour-packages .tour-packages img,
 .DubaiTourPackagesPlan .tour-packages .tour-packages img,
 .ThailandTourPackagesPlan .tour-packages .tour-packages img,
@@ -758,6 +761,7 @@
   /* height: 40vh; */
   border-radius: 20px 0px 0px 20px;
 }
+.SingaporeTourPackagesPlan .tour-packages .tour-packages .left-img,
 .KashmirTourPackagesPlan .tour-packages .tour-packages .left-img,
 .DubaiTourPackagesPlan .tour-packages .tour-packages .left-img,
 .ThailandTourPackagesPlan .tour-packages .tour-packages .left-img,
@@ -768,6 +772,7 @@
   /* height: 40vh; */
   border-radius: 3px 20px 20px 3px;
 }
+.SingaporeTourPackagesPlan .tour-packages .content-section,
 .KashmirTourPackagesPlan .tour-packages .content-section,
 .DubaiTourPackagesPlan .tour-packages .content-section,
 .ThailandTourPackagesPlan .tour-packages .content-section,
@@ -779,6 +784,8 @@
 }
 /* Family Plan Packages End */
 
+.SingaporeTourPackagesPlan .tour-packages .media-page,
+.ThailandTourPackagesPlan .tour-packages .media-page,
 .KashmirTourPackagesPlan .tour-packages .media-page,
 .DubaiTourPackagesPlan .tour-packages .media-page {
   background: none;
@@ -786,6 +793,8 @@
   border-radius: 20px;
   margin: 35px 0px;
 }
+.SingaporeTourPackagesPlan .tour-packages .media-page:hover,
+.ThailandTourPackagesPlan .tour-packages .media-page:hover,
 .KashmirTourPackagesPlan .tour-packages .media-page:hover,
 .DubaiTourPackagesPlan .tour-packages .media-page:hover {
   box-shadow: 0px 15px 50px 0px #70686842;
@@ -793,9 +802,31 @@
   position: relative;
   bottom: 3px;
 }
+.SingaporeTourPackagesPlan .tour-packages .left-img,
+.ThailandTourPackagesPlan .tour-packages .left-img,
 .KashmirTourPackagesPlan .tour-packages .left-img,
 .DubaiTourPackagesPlan .tour-packages .left-img {
   width: 100%;
   height: 50vh;
   border-radius: 3px 20px 20px 3px;
+}
+.media-img{
+  padding: 0 10px 0 0;
+}
+
+.go-back .view-deal{
+  padding: 5px 30px;
+  border: 1px solid #cccccc00;
+  border-radius: 10px;
+  font-weight: 600;
+  background: #FAEBD7;
+  position: fixed;
+}
+.go-back .view-deal:hover{
+  border: 1px solid #262626;
+  transition: all 0.5s linear;
+  background: #0000002e ;
+  box-shadow: 1px 1px 1px 1px;
+  backdrop-filter: invert(1);
+  color: #fff;
 }

@@ -1,23 +1,23 @@
-import "../../App.css";
-import "../../css/Comman.css";
-import "../../css/HoneyMoon.css";
+import "../../../App.css";
+import "../../../css/Comman.css";
+import "../../../css/HoneyMoon.css";
 
 import React from "react";
 
 // images
-import p1 from "../../img/1/1.avif";
-import p2 from "../../img/1/2.jpg";
-import p3 from "../../img/1/3.webp";
-import p4 from "../../img/1/4.avif";
-import p5 from "../../img/1/5.jpg";
-import taxi from "../../img/Family Package/himachal/taxi.gif";
-import sleep from "../../img/Family Package/himachal/sleep.gif";
-import food from "../../img/Family Package/himachal/vegan-food.gif";
+import p1 from "../../../img/1/1.avif";
+import p2 from "../../../img/1/2.jpg";
+import p3 from "../../../img/1/3.webp";
+import p4 from "../../../img/1/4.avif";
+import p5 from "../../../img/1/5.jpg";
+import taxi from "../../../img/Family Package/himachal/taxi.gif";
+import sleep from "../../../img/Family Package/himachal/sleep.gif";
+import food from "../../../img/Family Package/himachal/vegan-food.gif";
 
-import Navigation from "../Navigation";
-import Footer from "../Footer";
+import Navigation from "../../Navigation";
+import Footer from "../../Footer";
 
-function ThailandTourPackagesPlan() {
+function ThailandTourPackagesPlan1() {
   return (
     <div className="ThailandTourPackagesPlan">
       <Navigation />
@@ -49,12 +49,7 @@ function ThailandTourPackagesPlan() {
                   <li>
                     Located in Ao Nang Beach, a 6-minute walk from Ao Nang Krabi
                     Boxing Stadium, Holiday Style Ao Nang Resort Krabi.
-                    (Formerly: Holiday Inn Express Krabi Ao Nang) provides
-                    air-conditioned rooms with free WiFi. Featuring an outdoor
-                    swimming pool, this property is set a short distance from
-                    Krua Thara Seafood Restaurant, Aonang Mosque and Island
-                    Hopping Tour Desk, Nopparat Thara Beach. The accommodation
-                    features a 24-hour front desk.
+                  
                   </li>
                 </ul>
                 <div className="include-activity">
@@ -179,9 +174,7 @@ function ThailandTourPackagesPlan() {
                     Imp Note: Peach Blossom Resort to having essential
                     maintenance of main swimming pool; will be temporary close
                     from 05 to 31 May'23, will be open back to service on 01
-                    Jun'23. However guest who would like to use the swimming
-                    pool during that period are able to use at Chabu or Mangko
-                    swimming pool.
+                    Jun'23. 
                   </li>
                 </ul>
                 <div className="include-activity">
@@ -358,4 +351,4 @@ function ThailandTourPackagesPlan() {
   );
 }
 
-export default ThailandTourPackagesPlan;
+export default ThailandTourPackagesPlan1;

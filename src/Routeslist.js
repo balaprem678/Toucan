@@ -32,9 +32,16 @@ import MalaysiaTourPackages from "./components/Components-4.js/MalaysiaTourPacka
 import SingaporeTourPackages from "./components/Components-4.js/SingaporeTourPackages";
 import KashmirTourPackages from "./components/Components-4.js/KashmirTourPackages";
 
-import ThailandTourPackagesPlan from "./components/Components-5.js/ThailandTourPackagesPlan";
-import DubaiTourPackagesPlan from "./components/Components-5.js/DubaiTourPackagesPlan";
-import KashmirTourPackagesPlan from "./components/Components-5.js/KashmirTourPackagesPlan";
+import ThailandTourPackagesPlan1 from "./components/Components-4.js/Components-4.1/ThailandTourPackagesPlan1";
+import ThailandTourPackagesPlan2 from "./components/Components-4.js/Components-4.1/ThailandTourPackagesPlan2";
+import ThailandTourPackagesPlan3 from "./components/Components-4.js/Components-4.1/ThailandTourPackagesPlan3";
+
+import KashmirTourPackagesPlan from "./components/Components-4.js/Components-4.3/KashmirTourPackagesPlan";
+
+import DubaiTourPackagesPlan from "./components/Components-4.js/Components-4.2/DubaiTourPackagesPlan";
+import SingaporeTourPackagesPlan1 from "./components/Components-4.js/Components-4.4/SingaporeTourPackagesPlan1";
+import SingaporeTourPackagesPlan2 from "./components/Components-4.js/Components-4.4/SingaporeTourPackagesPlan2";     
+import SingaporeTourPackagesPlan3 from "./components/Components-4.js/Components-4.4/SingaporeTourPackagesPlan3";     
 
 export default function Routeslist() {
   return (
@@ -67,7 +74,14 @@ export default function Routeslist() {
           <Route path="/SingaporeTourPackages" element={<SingaporeTourPackages />} />
           <Route path="/KashmirTourPackages" element={<KashmirTourPackages />} />
 
-          <Route path="/ThailandTourPackagesPlan" element={<ThailandTourPackagesPlan />} />
+          <Route path="/ThailandTourPackagesPlan1" element={<ThailandTourPackagesPlan1 />} />
+          <Route path="/ThailandTourPackagesPlan2" element={<ThailandTourPackagesPlan2 />} />
+          <Route path="/ThailandTourPackagesPlan3" element={<ThailandTourPackagesPlan3 />} />
+
+          <Route path="/SingaporeTourPackagesPlan1" element={<SingaporeTourPackagesPlan1 />} />
+          <Route path="/SingaporeTourPackagesPlan2" element={<SingaporeTourPackagesPlan2 />} />
+          <Route path="/SingaporeTourPackagesPlan3" element={<SingaporeTourPackagesPlan3 />} />
+
           <Route path="/DubaiTourPackagesPlan" element={<DubaiTourPackagesPlan />} />
           <Route path="/KashmirTourPackagesPlan" element={<KashmirTourPackagesPlan />} />
           

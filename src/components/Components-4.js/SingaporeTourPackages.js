@@ -5,7 +5,11 @@ import "../../css/HoneyMoon.css";
 import React from "react";
 
 // images
-// import singapore from "../../img/Singapore HoneyMoon/singapore.avif";
+import p1 from "../../img/singapore/p1.webp";
+import p8 from "../../img/singapore/p8.webp";
+import p16 from "../../img/singapore/p16.webp";
+
+import { Link } from "react-router-dom";
 
 import Navigation from "../Navigation";
 import Footer from "../Footer";
@@ -28,9 +32,9 @@ function SingaporeTourPackages() {
           </button>
         </a>
       </div>
-      {/* <div className="Thailand-content margin">
+      <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Family Tour Packages</h1>
+          <h1 className="head-content">Singapore Vacation Packages</h1>
           <p className="head-para-content">
             How can you perfect a Singapore honeymoon trip? Be it watching the
             sunset at Changi Point Coastal walk, dining at soaring heights of
@@ -60,10 +64,10 @@ function SingaporeTourPackages() {
           <div className="tour-package-card margins">
             <div className="row">
               <div className="col-lg-4 col-md-3 col-sm-12">
-                <img src={singapore} alt="" />
+                <img src={p1} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Lovely 10 Days Honeymoon Package to Singapore</h5>
+                <h5>Asian Extravaganza - Luxury At Singapore</h5>
                 <ul>
                   <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
@@ -74,7 +78,7 @@ function SingaporeTourPackages() {
                     Single delight -04 island with lunch by speedboat exclude
                     island fee
                   </li>
-                  <b>9 nights: Singapore </b>
+                  <b>6 Days & 5 Nights </b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -84,14 +88,21 @@ function SingaporeTourPackages() {
                         <span class="material-symbols-outlined tick">
                           check_circle
                         </span>
-                        3 Hotels
+                        Hotels
                       </span>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <span>
                         <span class="material-symbols-outlined tick">
                           check_circle
                         </span>
-                        8 Activities
+                        Activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Transfer
                       </span>
                     </ul>
                   </div>
@@ -100,16 +111,155 @@ function SingaporeTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹53,192 <span>/Person</span>
+                      ₹74,998 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link
+                      to={"/SingaporeTourPackagesPlan1"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <img src={p8} alt="" />
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>Splendid Singapore And Bali Family Package </h5>
+                <ul>
+                  <li>
+                    Visit to Night Safari- a nocturnal zoo & have an enigmatic
+                    evening
+                  </li>
+                  <li>
+                    Enjoy movie-themed rides & other attractions at Universal
+                    Studios
+                  </li>
+                  <li>Visit Mount Batur, Monkey Forest & more in Bali</li>
+
+                  <b>7 Days & 6 Nights</b>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Hotels
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Transfer
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starting From</strong>
+                    </h6>
+                    <p>
+                      ₹50,000 <span>/Person</span>
+                    </p>
+                    <Link
+                      to={"/SingaporeTourPackagesPlan2"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <img src={p16} alt="" />
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>
+                  Experience the Thrill of LEGOLAND® and Universal Studio{" "}
+                </h5>
+                <ul>
+                  <li>Go sky high on the cable car ride at Sentosa Island</li>
+                  <li>Spend a day exploring LEGOLAND® and its many charms</li>
+                  <li>Catch a show of the popular Wings Of Time</li>
+
+                  <b>5 Days & 4 Nights</b>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Hotels
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Activities
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        Transfer
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starting From</strong>
+                    </h6>
+                    <p>
+                      ₹30,999 <span>/Person</span>
+                    </p>
+                    <Link
+                      to={"/SingaporeTourPackagesPlan3"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );

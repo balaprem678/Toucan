@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
-import "../../App.css";
-import "../../css/Comman.css";
-import "../../css/HoneyMoon.css";
+import "../../../App.css";
+import "../../../css/Comman.css";
+import "../../../css/HoneyMoon.css";
 
-import Footer from "../Footer";
-import Navigation from "../Navigation";
+import Footer from "../../Footer";
+import Navigation from "../../Navigation";
 
-import taxi from "../../img/Family Package/himachal/taxi.gif";
-import sleep from "../../img/Family Package/himachal/sleep.gif";
-import food from "../../img/Family Package/himachal/vegan-food.gif";
+import taxi from "../../../img/Family Package/himachal/taxi.gif";
+import sleep from "../../../img/Family Package/himachal/sleep.gif";
+import food from "../../../img/Family Package/himachal/vegan-food.gif";
 
-import p1 from "../../img/kashmirtourpackagesplan/p1.jpeg";
-import p2 from "../../img/kashmirtourpackagesplan/p2.avif";
-import p3 from "../../img/kashmirtourpackagesplan/p3.webp";
-import p4 from "../../img/kashmirtourpackagesplan/p4.webp";
-import p5 from "../../img/kashmirtourpackagesplan/p5.avif";
+import p7 from "../../../img/Thailand/3/p7.avif";
+import p8 from "../../../img/Thailand/3/p8.webp";
+import p9 from "../../../img/Thailand/3/p9.avif";
+import p4 from "../../../img/Thailand/3/p4.jpg";
+import p5 from "../../../img/Thailand/3/p5.jpg";
 
-export default function KashmirTourPackagesPlan() {
+export default function ThailandTourPackagesPlan3() {
   useEffect(() => {
     const body = document.querySelector("#root");
 
@@ -31,37 +31,24 @@ export default function KashmirTourPackagesPlan() {
   const [selectedIndex, setSelectedIndex] = useState("");
   const [mediaList, setMediaList] = useState([
     {
-      details: "Standard Houseboats by Royal Group",
+      details: "Sunbeam Hotel Pattaya, SHA Extra Plus",
       client_name:
-        "Royal Group of Houseboats offers Shikara service and on-site dining facility. You can enjoy boat rides at the nearby Dal Lake. Situated in the picturesque surroundings of Dal Lake near Guroo Manzil, Royal Group of Houseboats is a budget property in Srinagar. It lies at about 30 minutes drive from both the railway station and airport. The houseboats offer a pleasant stay in well-maintained rooms that provide a unique living experience to guests.",
+        " This property is 4 minutes walk from the beach. Situated a 270 m walk from Pattaya Beach, while it takes 1.5 hours to drive to Suvarnabhumi International Airport.",
       position: "INCLUSIONS (CUSTOMISABLE)",
-      image: p1,
+      image: p7,
       taxi: taxi,
       food: food,
       sleep: sleep,
       hotal: "Hotal",
       Pickup: "Pickup",
-      Food: " Food",
+      Food: " Food",    
       days: "Day - 1",
     },
     {
-      details: "Holiday Style Ao Nang Resort Krabi",
+      details: "Coral Island Tour with Indian Lunch",
       client_name:
-        " Located in Ao Nang Beach, a 6-minute walk from Ao Nang Krabi Boxing Stadium, Holiday Style Ao Nang Resort Krabi. (Formerly: Holiday Inn Express Krabi Ao Nang) provides air-conditioned rooms with free WiFi. Featuring an outdoor   swimming pool, this property is set a short distance from Krua Thara Seafood Restaurant, Aonang Mosque and Island      Hopping Tour Desk, Nopparat Thara Beach. The accommodation features a 24-hour front desk.",
-      position: "INCLUSIONS (CUSTOMISABLE)",
-      image: p2,
-      taxi: taxi,
-      food: food,
-      sleep: sleep,
-      hotal: "Hotal",
-      Pickup: "Pickup",
-      Food: " Food",
-      days: "Day - 1",
-    },
-    {
-      details: "Dubai Half Day Morning City Tour on shared transfer ",
-      client_name: " Dubai City Tour - Old and New Dubai Sightseeing tour",
-      image: p3,
+        "Enjoy the cool island breeze as you board a shared speed boat to Coral Island. You will be free to spend the day as you wish – take a dip, dive into the waters or laze around at the beach! Then, relish a yummy lunch from a pre-set menu with a view of the magnificent coastline. You will be picked up and dropped off at the hotel in a shared vehicle.",
+      image: p8,
       taxi: taxi,
       food: food,
       sleep: sleep,
@@ -71,10 +58,10 @@ export default function KashmirTourPackagesPlan() {
       days: "Day - 2",
     },
     {
-      details: "Creek Dhow Cruise Tour with Dinner (4 stars)",
+      details: "Oakwood Hotel & Residence Bangkok, SHA Extra Plus ",
       client_name:
-        "Witness the glittering skyline of Dubai as you set sail on the Dhow Cruise! Enjoy refreshing Arabic coffee and dates on the deck while cruising along the coastline of Dubai's fascinating creek.",
-      image: p4,
+        "In the heart of cosmopolitan Bangkok, close to the city’s famous shopping and nightlife, and in the vicinity of the renowned Chao Phraya River, Oakwood Hotel & Residence Bangkok is the ideal mix of a luxury hotel that also has the familiar comforts of home.",
+      image: p9,
       taxi: taxi,
       food: food,
       sleep: sleep,
@@ -83,27 +70,15 @@ export default function KashmirTourPackagesPlan() {
       Food: " Food",
       days: "Day - 3",
     },
-    {
-      details: "Dubai Frame Tour ",
-      client_name:
-        "Have a picture-perfect day as you set out on a tour of the stunning Dubai Frame, the world's largest standing frame created by two vertical towers. Your journey begins at the interactive 3D museum with immersive storytelling of the city's growth.",
-      image: p5,
-      taxi: taxi,
-      food: food,
-      sleep: sleep,
-      hotal: "Hotal",
-      Pickup: "Pickup",
-      Food: " Food",
-      days: "Day - 4",
-    },
+    
   ]);
 
   return (
-    <div className="KashmirTourPackagesPlan">
+    <div className="ThailandTourPackagesPlan">
       <Navigation />
 
       <div className="thailand-home">
-        <h4 className="head-2">Kashmir Vacation Packages Plan</h4>
+        <h4 className="head-2">Thailand Tour Packages Plan</h4>
         <h1 className="head-1">
           Discover ancient ruins and relaxing beach resorts and buddhist temples
         </h1>
@@ -118,7 +93,7 @@ export default function KashmirTourPackagesPlan() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Kashmir Honeymoon Packages Plan</h1>
+          <h1 className="head-content">Thailand Tour Packages Plan</h1>
           <p className="head-para-content">
             Planning to visit Dubai with your partner anytime soon? Choose Dubai
             Honeymoon Packages to explore Dubai and have the best travel
