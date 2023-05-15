@@ -35,7 +35,7 @@ function ThailandTourPackages() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Thailand Honeymoon Packages</h1>
+          <h1 className="head-content">Thailand Vacation Packages</h1>
           <p className="head-para-content">
             A fun-filled, brimming with culture, history and natural wonders,
             this Land of a Thousand Smiles is ripe with countless travel

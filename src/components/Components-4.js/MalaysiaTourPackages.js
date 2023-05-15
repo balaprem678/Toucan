@@ -4,6 +4,8 @@ import "../../css/HoneyMoon.css";
 
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 // images
 import p1 from "../../img/malaysia/p1.webp";
 import p2 from "../../img/malaysia/p2.jpg";
@@ -67,18 +69,23 @@ function MalaysiaTourPackages() {
                 <img src={p1} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Fully Loaded Escape to Kuala Lumpur</h5>
+                <h5>Marvelous Malaysia Tour Package</h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    Grab this well-designed 2 nights, 3 days Malaysia tour
+                    package for a trip to treasure for a lifetime. The vacation
+                    takes you through the amazing and lively Kuala Lumpur – the
+                    bustling capital city.{" "}
                   </li>
                   <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
+                    Throughout your stay, you will delight in a number of
+                    attractions dotted all over. With this tour package to
+                    Malaysia, you will come across some of the best attractions
+                    of Kuala Lumpur and surrounding areas, one of those being
+                    Genting Highlands.
                   </li>
-                  <b>4 nights: 5 days </b>
+
+                  <b>3 Days & 2 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -117,9 +124,14 @@ function MalaysiaTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹53,192 <span>/Person</span>
+                      ₹20,000<span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link
+                      to={"/MalaysiaTourPackagesPlan1"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -136,16 +148,18 @@ function MalaysiaTourPackages() {
                 <img src={p2} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Wonderful Escape to Kuala Lumpur</h5>
+                <h5>Refreshing Langkawi Honeymoon Package </h5>
                 <ul>
                   <li>
-                    Discover the beauty of Singapore on this exciting trip!
-                    Experience a cruise tour with lavish amenities and fantastic
-                    food. Head to Kuala Lumpur and visit the mesmerising
-                    Petronas Towers.{" "}
+                    A relaxing honeymoon to some scenic and tranquil place is a
+                    must after the tiring wedding rituals and also to create
+                    some magical moments with the partner. A honeymoon is the
+                    most precious time of one’s life and it should be a special
+                    one in every aspect so that it remains as a sweet memory in
+                    your heart.
                   </li>
 
-                  <b>5 nights: 6 days </b>
+                  <b>4 Days & 3 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -184,9 +198,14 @@ function MalaysiaTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹70,382 <span>/Person</span>
+                      ₹17,000 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link
+                      to={"/MalaysiaTourPackagesPlan2"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -203,11 +222,15 @@ function MalaysiaTourPackages() {
                 <img src={p3} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>4Nights Fun Kuala Lumpur Getaway</h5>
+                <h5>Awesome Singapore and Malaysia Tour Package</h5>
                 <ul>
-                  <li>An getaway to Kuala Lumpur</li>
+                  <li>
+                    Planning a trip with family or friends to Singapore? Book
+                    our Singapore itinerary for 6 days to indulge in a variety
+                    of experiences and explore attractions in Malaysia.
+                  </li>
 
-                  <b>4 nights: 5 days </b>
+                  <b>6 Days & 5 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -246,9 +269,14 @@ function MalaysiaTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹70,382 <span>/Person</span>
+                      ₹35,998 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link
+                      to={"/MalaysiaTourPackagesPlan3"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -265,11 +293,19 @@ function MalaysiaTourPackages() {
                 <img src={p4} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Malaysia Fully Loaded</h5>
+                <h5>
+                  Singapore-Malaysia Holiday Packages For A Perfectly
+                  Unforgettable Trip
+                </h5>
                 <ul>
-                  <li>An getaway to Kuala Lumpur</li>
+                  <li>
+                    Planning an exotic holiday this holiday season? What better
+                    way to spend your vacation than Singapore and Malaysia. An
+                    outstanding vacation awaits you as you book this 6 nights, 7
+                    days Singapore and Malaysia tour package.{" "}
+                  </li>
 
-                  <b>8 nights: 9 days </b>
+                  <b>7 Days & 6 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -308,9 +344,14 @@ function MalaysiaTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹91,018 <span>/Person</span>
+                      ₹33,999 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link
+                      to={"/MalaysiaTourPackagesPlan4"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -327,11 +368,16 @@ function MalaysiaTourPackages() {
                 <img src={p5} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Fun Filled Kuala Lumpur Vacation</h5>
+                <h5>Idyllic Malaysia Tour Package</h5>
                 <ul>
-                  <li>Explore the wonders of Kuala Lumpur</li>
+                  <li>
+                    Explore the best of Malaysia with this 4 nights, 5 days
+                    Malaysia tour package. Your Malaysia holiday comes coupled
+                    with various features that takes your holiday delight to an
+                    all new level.
+                  </li>
 
-                  <b>3 nights: 4 days </b>
+                  <b>5 Days & 4 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -370,9 +416,14 @@ function MalaysiaTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹91,018 <span>/Person</span>
+                      ₹26,000 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link
+                      to={"/MalaysiaTourPackagesPlan5"}
+                      className="nav-link"
+                    >
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>

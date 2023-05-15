@@ -15,7 +15,7 @@ import p3 from "../../../img/Dubai honeymoon packages plan/p3.jpg";
 import p4 from "../../../img/Dubai honeymoon packages plan/p4.webp";
 import p5 from "../../../img/Dubai honeymoon packages plan/p5.jpg";
 
-export default function DubaiTourPackagesPlan() {
+export default function ThailandHoneyMoonPlan3() {
   useEffect(() => {
     const body = document.querySelector("#root");
 
@@ -89,7 +89,7 @@ export default function DubaiTourPackagesPlan() {
       <Navigation />
 
       <div className="thailand-home">
-        <h4 className="head-2">DubaiHoneyMoon Vacation Packages</h4>
+        <h4 className="head-2">ThailandHoneyMoonPlan Packages</h4>
         <h1 className="head-1">
           Discover ancient ruins and relaxing beach resorts and buddhist temples
         </h1>
@@ -104,19 +104,19 @@ export default function DubaiTourPackagesPlan() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Dubai Honeymoon Packages</h1>
+          <h1 className="head-content">Thailand Honeymoon Plan Packages</h1>
           <p className="head-para-content">
-            Planning to visit Dubai with your partner anytime soon? Choose Dubai
-            Honeymoon Packages to explore Dubai and have the best travel
+            Planning to visit Thailand HoneyMoon with your partner anytime soon? Choose Thailand HoneyMoon
+            Honeymoon Packages to explore Thailand HoneyMoon and have the best travel
             experiences ever. This glamorous city has huge buildings,
             jaw-dropping architectural marvels, plenty of adventure parks,
             wonderful views from the desert, gigantic shopping malls and of
             course, royal vibes! It is an amazing blend of rich culture and
             modern technology which must be explored on a honeymoon trip to
-            Dubai. You just cannot miss the fantastic marina dinner cruise,
-            intimidating hot air balloon ride, views of Dubai Fountain and a lot
+            Thailand HoneyMoon. You just cannot miss the fantastic marina dinner cruise,
+            intimidating hot air balloon ride, views of Thailand HoneyMoon Fountain and a lot
             more. So, don’t wait, surprise your other half with an unforgettable
-            Dubai trip and cherish the moments forever!
+            Thailand HoneyMoon trip and cherish the moments forever!
           </p>
         </div>
       </div>

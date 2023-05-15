@@ -132,7 +132,30 @@ function Home() {
                   </div>
                 </div>
               </div>
-
+              <div className="item">
+                <div>
+                  <div class="image-wrap">
+                    <div class="card bg-card-2">
+                      <div class="content">
+                        <h2 class="title">Kashmir</h2>
+                        <p class="copy">
+                          The Republic of India controls the state of Jammu and
+                          Kashmir. It is made of the Jammu region, the Kashmir
+                          Valley, and Ladakh.
+                        </p>
+                        <div className="star">
+                          <img src={star} alt="" />
+                          <img src={star} alt="" />
+                          <img src={star} alt="" />
+                          <img src={star} alt="" />
+                          <img src={star} alt="" />
+                        </div>
+                        <button class="btn">SEA ALL</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="item">
                 <div>
                   <div class="image-wrap">
@@ -190,30 +213,6 @@ function Home() {
                         <p class="copy">
                           Singapore is a sunny, tropical island in South-east
                           Asia, off the southern tip of the Malay Peninsula.
-                        </p>
-                        <div className="star">
-                          <img src={star} alt="" />
-                          <img src={star} alt="" />
-                          <img src={star} alt="" />
-                          <img src={star} alt="" />
-                          <img src={star} alt="" />
-                        </div>
-                        <button class="btn">SEA ALL</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="item">
-                <div>
-                  <div class="image-wrap">
-                    <div class="card bg-card-4">
-                      <div class="content">
-                        <h2 class="title">Kashmir</h2>
-                        <p class="copy">
-                          The Republic of India controls the state of Jammu and
-                          Kashmir. It is made of the Jammu region, the Kashmir
-                          Valley, and Ladakh.
                         </p>
                         <div className="star">
                           <img src={star} alt="" />

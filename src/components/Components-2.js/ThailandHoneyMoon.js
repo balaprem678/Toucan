@@ -4,6 +4,7 @@ import "../../css/HoneyMoon.css";
 
 import React from "react";
 
+import { Link } from "react-router-dom";
 // images
 
 import thailand_honeymoon_package from "../../img/Thailand-honeymoon/thailand-honeymoon-package.avif";
@@ -61,7 +62,7 @@ function ThailandHoneyMoon() {
                 <img src={thailand_honeymoon_package} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Adventurous Thailand Honeymoon Package</h5>
+                <h5>Astonishing Thailand Luxury Honeymoon Packages</h5>
                 <ul>
                   <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
@@ -72,6 +73,7 @@ function ThailandHoneyMoon() {
                     Single delight -04 island with lunch by speedboat exclude
                     island fee
                   </li>
+                  <strong>6 Days & 5 Nights</strong>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -111,9 +113,11 @@ function ThailandHoneyMoon() {
                       <strong>Starts From</strong>
                     </h6>
                     <p>
-                      ₹40,300 <span>/Person</span>
+                      ₹66,000 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View Deal</button>
+                    <Link to={"/ThailandHoneyMoonPlan1"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -129,17 +133,15 @@ function ThailandHoneyMoon() {
                 <img src={india_to_thailand_honeymoon_package} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>India to Thailand Honeymoon Package</h5>
+                <h5>Mesmerizing Phuket Honeymoon Package </h5>
                 <ul>
+                  <li>Enjoy an excursion to Phi Phi Island</li>
                   <li>
-                    Reconnecting with nature at Bangkok Safari World & Marine
-                    Park Tour amidst wild and exotic animals
+                    Enjoy the speedboat ride while getting transferred to the
+                    island
                   </li>
-                  <li>
-                    Shop at a lower cost at the native works at Damnoen Saduak
-                    Floating Market
-                  </li>
-                  <li>Marine Park with Transfers</li>
+                  <li>Indulge in snorkeling, fish-feeding, and swimming </li>
+                  <strong>5 Days & 4 Nights</strong>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -179,9 +181,11 @@ function ThailandHoneyMoon() {
                       <strong>Starts From</strong>
                     </h6>
                     <p>
-                      ₹43,928 <span>/Person</span>
+                      ₹18,000 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View Deal</button>
+                    <Link to={"/ThailandHoneyMoonPlan2"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -251,7 +255,9 @@ function ThailandHoneyMoon() {
                     <p>
                       ₹67,760 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View Deal</button>
+                    <Link to={"/ThailandHoneyMoonPlan3"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -322,7 +328,9 @@ function ThailandHoneyMoon() {
                     <p>
                       ₹84,462 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View Deal</button>
+                    <Link to={"/ThailandHoneyMoonPlan4"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -387,7 +395,9 @@ function ThailandHoneyMoon() {
                     <p>
                       ₹33,569 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View Deal</button>
+                    <Link to={"/ThailandHoneyMoonPlan5"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -462,7 +472,9 @@ function ThailandHoneyMoon() {
                     <p>
                       ₹71,872 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View Deal</button>
+                    <Link to={"/ThailandHoneyMoonPlan6"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -20,7 +20,7 @@ function KashmirTourPackages() {
     <div className="KashmirTourPackages">
       <Navigation />
       <div className="thailand-home">
-        <h4 className="head-2">Kashmir Vacation Packages</h4>
+        <h4 className="head-2">Kashmir Vacation Packages Plan</h4>
         <h1 className="head-1">
           Discover ancient ruins and relaxing beach resorts and buddhist temples
         </h1>
@@ -35,7 +35,7 @@ function KashmirTourPackages() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Family Tour Packages</h1>
+          <h1 className="head-content">Kashmir Vacation Packages Plan</h1>
           <p className="head-para-content">
             How can you perfect a Singapore honeymoon trip? Be it watching the
             sunset at Changi Point Coastal walk, dining at soaring heights of
@@ -199,7 +199,7 @@ function KashmirTourPackages() {
                     <p>
                       ₹42,505 <span>/Person</span>
                     </p>
-                    <Link to={"/KashmirTourPackagesPlan"} className="nav-link">
+                    <Link to={"/"} className="nav-link">
                       <button className="view-deal">View All Plan</button>
                     </Link>
                   </div>
@@ -274,7 +274,7 @@ function KashmirTourPackages() {
                     <p>
                       ₹40,435 <span>/Person</span>
                     </p>
-                    <Link to={"/KashmirTourPackagesPlan"} className="nav-link">
+                    <Link to={"/"} className="nav-link">
                       <button className="view-deal">View All Plan</button>
                     </Link>
                   </div>
@@ -349,7 +349,7 @@ function KashmirTourPackages() {
                     <p>
                       ₹39,575 <span>/Person</span>
                     </p>
-                    <Link to={"/KashmirTourPackagesPlan"} className="nav-link">
+                    <Link to={"/"} className="nav-link">
                       <button className="view-deal">View All Plan</button>
                     </Link>
                   </div>

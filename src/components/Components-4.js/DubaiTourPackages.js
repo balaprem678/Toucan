@@ -4,6 +4,8 @@ import "../../css/HoneyMoon.css";
 
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 // images
 import p1 from "../../img/Duabi/p1.webp";
 import p2 from "../../img/Duabi/p2.webp";
@@ -118,7 +120,9 @@ function DubaiTourPackages() {
                     <p>
                       ₹26,740 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link to={"/DubaiTourPackagesPlan1"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -126,7 +130,6 @@ function DubaiTourPackages() {
           </div>
         </div>
       </div>
-
       <div className="tour-packages">
         <div className="container ">
           <div className="tour-package-card margins">
@@ -135,15 +138,21 @@ function DubaiTourPackages() {
                 <img src={p2} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Dubai - The Best of Dubai </h5>
+                <h5>Simply Dubai - Flight Inclusive</h5>
                 <ul>
+                  <li>Half day Dubai City Tour on Seat In Coach Basis</li>
                   <li>
-                    Treat yourself to refreshing spas and extravagant resorts in
-                    Dubai! Beat the heat with unbelievable discounts on
-                    bookings.
+                    01 Complementary Box of Dates per family during the stay
+                  </li>
+                  <li>Dubai Visa Charges Included</li>
+                  <li>5% VAT Charges Included</li>
+                  <li>
+                    Covid Travel Insurance covering Hotel/Institutional
+                    Quarantine stay expenses in case customer tests positive on
+                    tour
                   </li>
 
-                  <b>4 nights: 5 Days</b>
+                  <b>5 Nights: 6 Days</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -184,70 +193,11 @@ function DubaiTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹52,551 <span>/Person</span>
+                      ₹65,125 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="tour-packages">
-        <div className="container ">
-          <div className="tour-package-card margins">
-            <div className="row">
-              <div className="col-lg-4 col-md-3 col-sm-12">
-                <img src={p3} alt="" />
-              </div>
-              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Explore Dubai with your Soulmate </h5>
-                <ul>
-                  <li>
-                    Luxury, relaxation and fun, are what your Dubai vacation
-                    will be all about. Soak in the attractions like Yas Island,
-                    safaris and more with your loved ones.
-                  </li>
-
-                  <b>3 nights: 4 Days</b>
-                </ul>
-                <div className="include-activity">
-                  <div>
-                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
-                    <ul>
-                      <span>
-                        <span>
-                          <span class="material-symbols-outlined tick">
-                            check_circle
-                          </span>
-                          2 Flights
-                        </span>
-                      </span>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      <span>
-                        <span class="material-symbols-outlined tick">
-                          check_circle
-                        </span>
-                        1 Hotal
-                      </span>
-                      <br />
-                      <span>
-                        <span class="material-symbols-outlined tick">
-                          check_circle
-                        </span>
-                        2 transfer
-                      </span>
-                    </ul>
-                  </div>
-                  <div className="rate-deal">
-                    <h6>
-                      <strong>Starting From</strong>
-                    </h6>
-                    <p>
-                      ₹41,509 <span>/Person</span>
-                    </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link to={"/DubaiTourPackagesPlan2"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -263,15 +213,21 @@ function DubaiTourPackages() {
                 <img src={p4} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Feel the Magic of Love in Dubai! </h5>
+                <h5>
+                  Budget-Friendly Dubai Packages From Atlantis For A Thrilling
+                  Vacay
+                </h5>
                 <ul>
                   <li>
-                    Luxury, relaxation and fun, are what your Dubai vacation
-                    will be all about. Soak in the attractions like Yas Island,
-                    safaris and more with your loved ones.
+                    It’s time to take that much-needed break with this
+                    customizable 5 night 6 days Dubai package and jaunt away on
+                    the most memorable journey of your life. Get pampered with
+                    this mind-blowing exclusive Dubai itinerary for 6 days where
+                    you shall embark on a guided tour of Dubai and get a chance
+                    to cruise lavishly through the Dubai Creek.
                   </li>
 
-                  <b>5 nights: 6 Days</b>
+                  <b>6 Days & 5 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -306,9 +262,79 @@ function DubaiTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹52,551 <span>/Person</span>
+                      ₹45,500 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link to={"/DubaiTourPackagesPlan3"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="tour-packages">
+        <div className="container ">
+          <div className="tour-package-card margins">
+            <div className="row">
+              <div className="col-lg-4 col-md-3 col-sm-12">
+                <img src={p3} alt="" />
+              </div>
+              <div className="col-lg-8 col-md-6 col-sm-12 content-section">
+                <h5>
+                  Splendid Dubai Abu Dhabi Tour Packages For An Amazing Holiday
+                </h5>
+                <ul>
+                  <li>
+                    Planning a family vacation and do not know what to do? Start
+                    with picking the destination. The middle east with its
+                    modernity and ultra-growth looks like a good option when fun
+                    for the whole family is to be ensured. Browse our Dubai 6
+                    nights 7 days packages and see for yourself what a tour with
+                    family to the prime city of middle east looks like.
+                  </li>
+
+                  <b>7 Days & 6 Nights</b>
+                </ul>
+                <div className="include-activity">
+                  <div>
+                    <h6>INCLUSIONS (CUSTOMISABLE)</h6>
+                    <ul>
+                      <span>
+                        <span>
+                          <span class="material-symbols-outlined tick">
+                            check_circle
+                          </span>
+                          2 Flights
+                        </span>
+                      </span>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        1 Hotal
+                      </span>
+                      <br />
+                      <span>
+                        <span class="material-symbols-outlined tick">
+                          check_circle
+                        </span>
+                        2 transfer
+                      </span>
+                    </ul>
+                  </div>
+                  <div className="rate-deal">
+                    <h6>
+                      <strong>Starting From</strong>
+                    </h6>
+                    <p>
+                      ₹24,999 <span>/Person</span>
+                    </p>
+                    <Link to={"/DubaiTourPackagesPlan4"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -328,12 +354,15 @@ function DubaiTourPackages() {
                 <h5>Feel the Magic of Love in Dubai! </h5>
                 <ul>
                   <li>
-                    Luxury, relaxation and fun, are what your Dubai vacation
-                    will be all about. Soak in the attractions like Yas Island,
-                    safaris and more with your loved ones.
+                    This 5 days, 4 nights Dubai honeymoon package is the perfect
+                    match for couples who fancy a romantic getaway that’s a
+                    blend of serenity and adventure. As the duo will visit the
+                    top tourist attractions of Dubai, their bond will get
+                    stronger. One can avail Dubai honeymoon packages from Delhi,
+                    Mumbai, Chennai, and other major Indian cities.
                   </li>
 
-                  <b>3 nights: 4 Days</b>
+                  <b>5 Days & 4 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -368,9 +397,11 @@ function DubaiTourPackages() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹41,509 <span>/Person</span>
+                      ₹27,000 <span>/Person</span>
                     </p>
-                    <button className="view-deal">View All Plan</button>
+                    <Link to={"/DubaiTourPackagesPlan5"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>

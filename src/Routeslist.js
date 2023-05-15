@@ -38,10 +38,28 @@ import ThailandTourPackagesPlan3 from "./components/Components-4.js/Components-4
 
 import KashmirTourPackagesPlan from "./components/Components-4.js/Components-4.3/KashmirTourPackagesPlan";
 
-import DubaiTourPackagesPlan from "./components/Components-4.js/Components-4.2/DubaiTourPackagesPlan";
 import SingaporeTourPackagesPlan1 from "./components/Components-4.js/Components-4.4/SingaporeTourPackagesPlan1";
 import SingaporeTourPackagesPlan2 from "./components/Components-4.js/Components-4.4/SingaporeTourPackagesPlan2";     
-import SingaporeTourPackagesPlan3 from "./components/Components-4.js/Components-4.4/SingaporeTourPackagesPlan3";     
+import SingaporeTourPackagesPlan3 from "./components/Components-4.js/Components-4.4/SingaporeTourPackagesPlan3";  
+
+import DubaiTourPackagesPlan1 from "./components/Components-4.js/Components-4.2/DubaiTourPackagesPlan1";
+import DubaiTourPackagesPlan2 from "./components/Components-4.js/Components-4.2/DubaiTourPackagesPlan2";
+import DubaiTourPackagesPlan3 from "./components/Components-4.js/Components-4.2/DubaiTourPackagesPlan3";
+import DubaiTourPackagesPlan4 from "./components/Components-4.js/Components-4.2/DubaiTourPackagesPlan4";
+import DubaiTourPackagesPlan5 from "./components/Components-4.js/Components-4.2/DubaiTourPackagesPlan5";
+
+import MalaysiaTourPackagesPlan1 from "./components/Components-4.js/Components-4.5/MalaysiaTourPackagesPlan1";
+import MalaysiaTourPackagesPlan2 from "./components/Components-4.js/Components-4.5/MalaysiaTourPackagesPlan2";
+import MalaysiaTourPackagesPlan3 from "./components/Components-4.js/Components-4.5/MalaysiaTourPackagesPlan3";
+import MalaysiaTourPackagesPlan4 from "./components/Components-4.js/Components-4.5/MalaysiaTourPackagesPlan4";
+import MalaysiaTourPackagesPlan5 from "./components/Components-4.js/Components-4.5/MalaysiaTourPackagesPlan5";
+
+import ThailandHoneyMoonPlan1 from "./components/Components-2.js/Components-2.1/ThailandHoneyMoonPlan1";
+import ThailandHoneyMoonPlan2 from "./components/Components-2.js/Components-2.1/ThailandHoneyMoonPlan2";
+import ThailandHoneyMoonPlan3 from "./components/Components-2.js/Components-2.1/ThailandHoneyMoonPlan3";
+import ThailandHoneyMoonPlan4 from "./components/Components-2.js/Components-2.1/ThailandHoneyMoonPlan4";
+import ThailandHoneyMoonPlan5 from "./components/Components-2.js/Components-2.1/ThailandHoneyMoonPlan5";
+import ThailandHoneyMoonPlan6 from "./components/Components-2.js/Components-2.1/ThailandHoneyMoonPlan6";
 
 export default function Routeslist() {
   return (
@@ -82,7 +100,25 @@ export default function Routeslist() {
           <Route path="/SingaporeTourPackagesPlan2" element={<SingaporeTourPackagesPlan2 />} />
           <Route path="/SingaporeTourPackagesPlan3" element={<SingaporeTourPackagesPlan3 />} />
 
-          <Route path="/DubaiTourPackagesPlan" element={<DubaiTourPackagesPlan />} />
+          <Route path="/DubaiTourPackagesPlan1" element={<DubaiTourPackagesPlan1 />} />
+          <Route path="/DubaiTourPackagesPlan2" element={<DubaiTourPackagesPlan2 />} />
+          <Route path="/DubaiTourPackagesPlan3" element={<DubaiTourPackagesPlan3 />} />
+          <Route path="/DubaiTourPackagesPlan4" element={<DubaiTourPackagesPlan4 />} />
+          <Route path="/DubaiTourPackagesPlan5" element={<DubaiTourPackagesPlan5 />} />
+
+          <Route path="/MalaysiaTourPackagesPlan1" element={<MalaysiaTourPackagesPlan1 />} />
+          <Route path="/MalaysiaTourPackagesPlan2" element={<MalaysiaTourPackagesPlan2 />} />
+          <Route path="/MalaysiaTourPackagesPlan3" element={<MalaysiaTourPackagesPlan3 />} />
+          <Route path="/MalaysiaTourPackagesPlan4" element={<MalaysiaTourPackagesPlan4 />} />
+          <Route path="/MalaysiaTourPackagesPlan5" element={<MalaysiaTourPackagesPlan5 />} />
+
+          <Route path="/ThailandHoneyMoonPlan1" element={<ThailandHoneyMoonPlan1 />} />
+          <Route path="/ThailandHoneyMoonPlan2" element={<ThailandHoneyMoonPlan2 />} />
+          <Route path="/ThailandHoneyMoonPlan3" element={<ThailandHoneyMoonPlan3 />} />
+          <Route path="/ThailandHoneyMoonPlan4" element={<ThailandHoneyMoonPlan4 />} />
+          <Route path="/ThailandHoneyMoonPlan5" element={<ThailandHoneyMoonPlan5 />} />
+          <Route path="/ThailandHoneyMoonPlan6" element={<ThailandHoneyMoonPlan6 />} />
+
           <Route path="/KashmirTourPackagesPlan" element={<KashmirTourPackagesPlan />} />
           
 

@@ -404,19 +404,19 @@
   transition: opacity calc(var(--d) * 1.5) var(--e);
 }
 .countrys-card .item .image-wrap .bg-card-1:before {
-  background-image: url(https://tinypic.host/images/2023/05/06/Copenhagen-636x426.jpeg);
+  background-image: url(https://tinypic.host/images/2023/05/15/Copenhagen-636x426.jpeg);
 }
 .countrys-card .item .image-wrap .bg-card-2:before {
-  background-image: url(https://tinypic.host/images/2023/05/06/Hamburg-636x426.jpeg);
+  background-image: url(https://tinypic.host/images/2023/05/15/Hamburg-636x426.jpeg);
 }
 .countrys-card .item .image-wrap .bg-card-3:before {
-  background-image: url(https://tinypic.host/images/2023/05/06/Netherlands-636x426.jpeg);
+  background-image: url(https://tinypic.host/images/2023/05/15/Netherlands-636x426.jpeg);
 }
 .countrys-card .item .image-wrap .bg-card-4:before {
-  background-image: url(https://tinypic.host/images/2023/05/06/tour-hours-1-636x426.jpeg);
+  background-image: url(https://tinypic.host/images/2023/05/15/tour-hours-1-636x426.jpeg);
 }
 .countrys-card .item .image-wrap .bg-card-5:before {
-  background-image: url(https://tinypic.host/images/2023/05/06/tour-hours-2-636x426.jpeg);
+  background-image: url(https://tinypic.host/images/2023/05/15/tour-hours-2-636x426.jpeg);
 }
 
 .content {
@@ -810,22 +810,22 @@
   height: 50vh;
   border-radius: 3px 20px 20px 3px;
 }
-.media-img{
+.media-img {
   padding: 0 10px 0 0;
 }
 
-.go-back .view-deal{
+.go-back .view-deal {
   padding: 5px 30px;
   border: 1px solid #cccccc00;
   border-radius: 10px;
   font-weight: 600;
-  background: #FAEBD7;
+  background: #faebd7;
   position: fixed;
 }
-.go-back .view-deal:hover{
+.go-back .view-deal:hover {
   border: 1px solid #262626;
   transition: all 0.5s linear;
-  background: #0000002e ;
+  background: #0000002e;
   box-shadow: 1px 1px 1px 1px;
   backdrop-filter: invert(1);
   color: #fff;
