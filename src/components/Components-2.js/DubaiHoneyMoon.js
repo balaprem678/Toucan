@@ -60,18 +60,19 @@ function DubaiHoneyMoon() {
                 <img src={dubai} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Fabulous 5N Dubai honeymoon trip</h5>
+                <h5>Romantic Dubai Honeymoon Tour Package </h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    Enjoy the evening with your sweetheart aboard the famed Dhow
+                    Cruise
                   </li>
+                  <li>Explore the numerous charms of Dubai on a city tour</li>
                   <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
+                    Get your pictures clicked with your beloved at Atlantis, The
+                    Palm
                   </li>
-                  <b>5 nights: </b>
+                  <li>Have fun at the Dubai Desert Safari</li>
+                  <b>5 Days & 4 Nights</b>
                   <strong> Dubai</strong>
                 </ul>
                 <div className="include-activity">
@@ -112,9 +113,9 @@ function DubaiHoneyMoon() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹89,390 <span>/Person</span>
+                      ₹90,500 <span>/Person</span>
                     </p>
-                    <Link to={"/DubaiTourPackagesPlan"} className="nav-link">
+                    <Link to={"/DubaiHoneymoonPlan1"} className="nav-link">
                       <button className="view-deal">View All Plan</button>
                     </Link>
                   </div>
@@ -132,18 +133,23 @@ function DubaiHoneyMoon() {
                 <img src={BlueWaters_Final} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>6 nights 7 days United Arab Emirates Package for Couple</h5>
+                <h5>Splendor of Dubai Honeymoon Package</h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    If you are planning to have a lavish sort of a honeymoon but
+                    have restraint budget, then do not fret, Dubai packages for
+                    couples are crafted with love and care so that the couples
+                    get the most in the least prices.
                   </li>
                   <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
+                    These packages aims to provide you with the best amenities
+                    and all the sightseeing at the pocket friendly prices.
                   </li>
-                  <b>6 nights: Dubai</b>
+                  <li>
+                    Also, as this package is honeymoon friendly, it is created
+                    with special touch of romance and love in each of the days.
+                  </li>
+                  <b>7 Days & 6 Nights </b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -176,9 +182,9 @@ function DubaiHoneyMoon() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹1,36,169 <span>/Person</span>
+                      ₹49,998 <span>/Person</span>
                     </p>
-                    <Link to={"/DubaiTourPackagesPlan"} className="nav-link">
+                    <Link to={"/DubaiHoneymoonPlan3"} className="nav-link">
                       <button className="view-deal">View All Plan</button>
                     </Link>
                   </div>
@@ -196,20 +202,12 @@ function DubaiHoneyMoon() {
                 <img src={dubai_2} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>
-                  6 nights 7 days Relaxing United Arab Emirates attraction Tour
-                  Package for Couple
-                </h5>
+                <h5>Dubai Honeymoon Package For 6 Nights 7 Days </h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
-                  <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
-                  </li>
-                  <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
-                  </li>
+                  <li>Experience Dhow Cruise</li>
+                  <li>City Tour of Dubai</li>
+                  <li>Visit Dolphinarium</li>
+                  <li>Enjoy Desert Safari</li>
                   <b>6 nights: Dubai</b>
                 </ul>
                 <div className="include-activity">
@@ -245,7 +243,7 @@ function DubaiHoneyMoon() {
                     <p>
                       ₹85,104 <span>/Person</span>
                     </p>
-                    <Link to={"/DubaiTourPackagesPlan"} className="nav-link">
+                    <Link to={"/DubaiHoneymoonPlan3"} className="nav-link">
                       <button className="view-deal">View All Plan</button>
                     </Link>
                   </div>
@@ -263,22 +261,18 @@ function DubaiHoneyMoon() {
                 <img src={dubai_1} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>
-                  5 nights 6 days United Arab Emirates Package for Couple with
-                  Miracle Garden - A Walk Through World’s Largest Natural Flower
-                  Garden
-                </h5>
+                <h5>Sensuous Dubai Honeymoon With Palm Atlantis Stay</h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    Romance your beloved at a beautiful, exotic location like
+                    Dubai with our scintillating and utterly romantic 5 night 6
+                    days Dubai package, that has been specially crafted for your
+                    lovey-dovey getaway. Sail along the Dubai Creek in a
+                    romantic Dhow Cruise and explore the two most happening
+                    cities of UAE- Dubai and Abu Dhabi.
                   </li>
-                  <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
-                  </li>
-                  <b>5 nights: Dubai</b>
+                
+                  <b>6 Days & 5 Nights </b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -304,9 +298,11 @@ function DubaiHoneyMoon() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹47,771 <span>/Person</span>
+                      ₹50,000 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/DubaiHoneymoonPlan4"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>

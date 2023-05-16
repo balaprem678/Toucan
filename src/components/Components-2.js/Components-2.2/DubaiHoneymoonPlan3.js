@@ -10,13 +10,15 @@ import taxi from "../../../img/Family Package/himachal/taxi.gif";
 import sleep from "../../../img/Family Package/himachal/sleep.gif";
 import food from "../../../img/Family Package/himachal/vegan-food.gif";
 
-import p1 from "../../../img/kashmirtourpackagesplan/p1.jpeg";
-import p2 from "../../../img/kashmirtourpackagesplan/p2.avif";
-import p3 from "../../../img/kashmirtourpackagesplan/p3.webp";
-import p4 from "../../../img/kashmirtourpackagesplan/p4.webp";
-import p5 from "../../../img/kashmirtourpackagesplan/p5.avif";
+import p8 from "../../../img/Dubai honeymoon packages plan/1/p8.webp";
+import p10 from "../../../img/Dubai honeymoon packages plan/1/p10.webp";
+import p11 from "../../../img/Dubai honeymoon packages plan/1/p11.webp";
+import p12 from "../../../img/Dubai honeymoon packages plan/1/p12.webp";
+import p13 from "../../../img/Dubai honeymoon packages plan/1/p13.webp";
+import p14 from "../../../img/Dubai honeymoon packages plan/1/p14.webp";
+import p15 from "../../../img/Dubai honeymoon packages plan/1/p15.webp";
 
-export default function KashmirTourPackagesPlan() {
+export default function DubaiHoneymoonPlan3() {
   useEffect(() => {
     const body = document.querySelector("#root");
 
@@ -30,12 +32,13 @@ export default function KashmirTourPackagesPlan() {
   const [mediaIndex, setMediaIndex] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState("");
   const [mediaList, setMediaList] = useState([
+    // 1
     {
-      details: "Standard Houseboats by Royal Group",
+      details: "Arrive in Dubai",
       client_name:
-        "Royal Group of Houseboats offers Shikara service and on-site dining facility. You can enjoy boat rides at the nearby Dal Lake. Situated in the picturesque surroundings of Dal Lake near Guroo Manzil, Royal Group of Houseboats is a budget property in Srinagar. It lies at about 30 minutes drive from both the railway station and airport. The houseboats offer a pleasant stay in well-maintained rooms that provide a unique living experience to guests.",
+        "Our representative will greet you at the Dubai International Airport and then drive you to the designated hotel. On arrival, you will check into the hotel and freshen up. Afterward, you will proceed for Dhow Cruise across the Dubai Creek. ",
       position: "INCLUSIONS (CUSTOMISABLE)",
-      image: p1,
+      image: p12,
       taxi: taxi,
       food: food,
       sleep: sleep,
@@ -44,24 +47,13 @@ export default function KashmirTourPackagesPlan() {
       Food: " Food",
       days: "Day - 1",
     },
+    // 2
     {
-      details: "Holiday Style Ao Nang Resort Krabi",
+      details: "Desert Safari at Dubai",
       client_name:
-        " Located in Ao Nang Beach, a 6-minute walk from Ao Nang Krabi Boxing Stadium, Holiday Style Ao Nang Resort Krabi. (Formerly: Holiday Inn Express Krabi Ao Nang) provides air-conditioned rooms with free WiFi. Featuring an outdoor   swimming pool, this property is set a short distance from Krua Thara Seafood Restaurant, Aonang Mosque and Island      Hopping Tour Desk, Nopparat Thara Beach. The accommodation features a 24-hour front desk.",
+        "Enjoy breakfast and go to the Desert Safari Tour. You can be thrilled by sandboarding on the dunes of the desert. You can also ride a camel or quad bike if you want to add more excitement. You can try the henna design on hands or feet as a symbol of the tour. In the evening, you will return to the hotel for overnight stay.",
       position: "INCLUSIONS (CUSTOMISABLE)",
-      image: p2,
-      taxi: taxi,
-      food: food,
-      sleep: sleep,
-      hotal: "Hotal",
-      Pickup: "Pickup",
-      Food: " Food",
-      days: "Day - 1",
-    },
-    {
-      details: "Dubai Half Day Morning City Tour on shared transfer ",
-      client_name: " Dubai City Tour - Old and New Dubai Sightseeing tour",
-      image: p3,
+      image: p13,
       taxi: taxi,
       food: food,
       sleep: sleep,
@@ -70,11 +62,11 @@ export default function KashmirTourPackagesPlan() {
       Food: " Food",
       days: "Day - 2",
     },
+    // 3
     {
-      details: "Creek Dhow Cruise Tour with Dinner (4 stars)",
-      client_name:
-        "Witness the glittering skyline of Dubai as you set sail on the Dhow Cruise! Enjoy refreshing Arabic coffee and dates on the deck while cruising along the coastline of Dubai's fascinating creek.",
-      image: p4,
+      details: "Dubai: City Tour with Burj Khalifa",
+      client_name: "In the morning, after an appetizing breakfast, you will proceed for the Dubai City Tour. You will be visiting Burj Al Arab (fifth tallest hotel in the world), Dubai Museum, Jumeirah Mosque (built solely from white stones) and Jumeirah Beach. You can relax on the white sand of Jumeirah Beach and spend a romantic time with your beloved.",
+      image: p14,
       taxi: taxi,
       food: food,
       sleep: sleep,
@@ -83,11 +75,12 @@ export default function KashmirTourPackagesPlan() {
       Food: " Food",
       days: "Day - 3",
     },
+    // 4
     {
-      details: "Dubai Frame Tour ",
+      details: "Abu Dhabi City Tour",
       client_name:
-        "Have a picture-perfect day as you set out on a tour of the stunning Dubai Frame, the world's largest standing frame created by two vertical towers. Your journey begins at the interactive 3D museum with immersive storytelling of the city's growth.",
-      image: p5,
+        "After a healthy breakfast in the morning, you will proceed to visit Abu Dhabi City (UAE’s Capital City). You will visit some of the best buildings in UAE like the Emirates Palace (a luxury five-star hotel) and Sheik Zayed Mosque (the largest mosque in the country). You will also visit Ferrari World; first Ferrari branded theme park with lots of ride and other attractions. Get back to the hotel in Dubai in the evening and relax overnight.",
+      image: p15,
       taxi: taxi,
       food: food,
       sleep: sleep,
@@ -96,6 +89,49 @@ export default function KashmirTourPackagesPlan() {
       Food: " Food",
       days: "Day - 4",
     },
+    // 5
+    {
+      details: "Tour to Dolphinarium",
+      client_name:
+        "After breakfast in the morning, you will visit the Dubai Dolphinarium. You can watch and interact with dolphins and seals at the Dubai Dolphinarium. You can also take pictures with the mammals to make your trip memorable. Afterward, you can enjoy a leisure day on your own doing shopping or simply relaxing at the hotel. You will be staying at the hotel for overnight.",
+      image: p10,
+      taxi: taxi,
+      food: food,
+      sleep: sleep,
+      hotal: "Hotal",
+      Pickup: "Pickup",
+      Food: " Food",
+      days: "Day - 5",
+    },
+    // 6
+    {
+      details: "Dubai to Atlantis",
+      client_name:
+        "After a yummy breakfast in the morning, you will check out from the hotel and travel to Atlantis. On arrival, you will check into the hotel and freshen up. Later, you will visit Aquaventure Waterpark, the best water park in the country. You can feel adrenaline rush with breathtaking rides and slides. You will also see different marine creatures at the Lost Chamber Aquarium. In the evening, you will return to the hotel for overnight stay.",
+      image: p8,
+      taxi: taxi,
+      food: food,
+      sleep: sleep,
+      hotal: "Hotal",
+      Pickup: "Pickup",
+      Food: " Food",
+      days: "Day - 6",
+    },
+    // 7
+    {
+      details: "Dubai: Departure",
+      client_name:
+        "Enjoy a nice breakfast and get transferred to the airport. You will leave Dubai with plenty of unforgettable memories to remember for a lifetime.",
+      image: p11,
+      taxi: taxi,
+      food: food,
+      sleep: sleep,
+      hotal: "Hotal",
+      Pickup: "Pickup",
+      Food: " Food",
+      days: "Day - 6",
+    },
+
   ]);
 
   return (
@@ -103,7 +139,7 @@ export default function KashmirTourPackagesPlan() {
       <Navigation />
 
       <div className="thailand-home">
-        <h4 className="head-2">Kashmir Vacation Packages Plan</h4>
+        <h4 className="head-2">Dubai HoneyMoon Packages Plan</h4>
         <h1 className="head-1">
           Discover ancient ruins and relaxing beach resorts and buddhist temples
         </h1>
@@ -118,7 +154,7 @@ export default function KashmirTourPackagesPlan() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Kashmir Honeymoon Packages Plan</h1>
+          <h1 className="head-content">Dubai HoneyMoon Packages Plan</h1>
           <p className="head-para-content">
             Planning to visit Dubai with your partner anytime soon? Choose Dubai
             Honeymoon Packages to explore Dubai and have the best travel

@@ -2,7 +2,7 @@ import "../../App.css";
 import "../../css/Comman.css";
 import "../../css/HoneyMoon.css";
 
-import React from "react";
+import { Link } from "react-router-dom";
 
 // images
 
@@ -10,7 +10,6 @@ import dubai from "../../img/dubai-honey-moon/dubai.avif";
 import BlueWaters_Final from "../../img/dubai-honey-moon/BlueWaters_Final.avif";
 import dubai_2 from "../../img/dubai-honey-moon/dubai-2.avif";
 import dubai_1 from "../../img/dubai-honey-moon/dubai-1.avif";
-
 
 import Navigation from "../Navigation";
 import Footer from "../Footer";
@@ -20,7 +19,7 @@ function MalaysiaHoneyMoon() {
     <div className="MalaysiaHoneyMoon">
       <Navigation />
       <div className="thailand-home">
-        <h4 className="head-2">MalaysiaHoneyMoon Vacation Packages</h4>
+        <h4 className="head-2">Malaysia HoneyMoon Vacation Packages</h4>
         <h1 className="head-1">
           Discover ancient ruins and relaxing beach resorts and buddhist temples
         </h1>
@@ -35,19 +34,22 @@ function MalaysiaHoneyMoon() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Dubai Honeymoon Packages</h1>
+          <h1 className="head-content">Malaysia HoneyMoon Vacation Packages</h1>
           <p className="head-para-content">
-            Planning to visit Dubai with your partner anytime soon? Choose Dubai
-            Honeymoon Packages to explore Dubai and have the best travel
-            experiences ever. This glamorous city has huge buildings,
-            jaw-dropping architectural marvels, plenty of adventure parks,
-            wonderful views from the desert, gigantic shopping malls and of
-            course, royal vibes! It is an amazing blend of rich culture and
-            modern technology which must be explored on a honeymoon trip to
-            Dubai. You just cannot miss the fantastic marina dinner cruise,
-            intimidating hot air balloon ride, views of Dubai Fountain and a lot
-            more. So, don’t wait, surprise your other half with an unforgettable
-            Dubai trip and cherish the moments forever!
+            Planning to visit Malaysia HoneyMoon Vacation Packages with your
+            partner anytime soon? Choose MalaysiaHoneyMoon Vacation Packages
+            Honeymoon Packages to explore MalaysiaHoneyMoon Vacation Packages
+            and have the best travel experiences ever. This glamorous city has
+            huge buildings, jaw-dropping architectural marvels, plenty of
+            adventure parks, wonderful views from the desert, gigantic shopping
+            malls and of course, royal vibes! It is an amazing blend of rich
+            culture and modern technology which must be explored on a honeymoon
+            trip to MalaysiaHoneyMoon Vacation Packages. You just cannot miss
+            the fantastic marina dinner cruise, intimidating hot air balloon
+            ride, views of MalaysiaHoneyMoon Vacation Packages Fountain and a
+            lot more. So, don’t wait, surprise your other half with an
+            unforgettable MalaysiaHoneyMoon Vacation Packages trip and cherish
+            the moments forever!
           </p>
         </div>
       </div>
@@ -59,19 +61,19 @@ function MalaysiaHoneyMoon() {
                 <img src={dubai} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>Fabulous 5N Dubai honeymoon trip</h5>
+                <h5>Exhilarating Malaysia Tour Package</h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    Malaysia, every traveler’s go-to destination, is the
+                    culmination of everything one would every hope to find to
+                    make it a traveler’s paradise. It has a huge tourist influx,
+                    as it appeals to all kinds of travelers: the adventure
+                    lover, the explorer, the peace-seeker, the wildlife
+                    enthusiast and the one craving a getaway from the monotonous
+                    life of the metropolitan.
                   </li>
-                  <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
-                  </li>
-                  <b>5 nights: </b>
-                  <strong> Dubai</strong>
+
+                  <b>75 Days & 4 Nights </b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -111,9 +113,11 @@ function MalaysiaHoneyMoon() {
                       <strong>Starting From</strong>
                     </h6>
                     <p>
-                      ₹89,390 <span>/Person</span>
+                      ₹31,998 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/MalaysiaHoneymoonPlan1"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -129,18 +133,20 @@ function MalaysiaHoneyMoon() {
                 <img src={BlueWaters_Final} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>6 nights 7 days United Arab Emirates Package for Couple</h5>
+                <h5>Picturesque Malaysia Honeymoon Package</h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    Malaysia, an idyllic destination to kickstart your married
+                    life, offers everything you would ever hope to find to make
+                    your honeymoon perfect. It is a melange of different and
+                    varied traditions and cultures, standing up to the title of
+                    “Truly Asia”, providing an experience incomparable to any
+                    other. It is an impeccable destination for a honeymoon as
+                    it’s a perfect blend of beauty, serenity, traditionality,
+                    entertainment, modernity and tranquility.
                   </li>
-                  <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
-                  </li>
-                  <b>6 nights: Dubai</b>
+
+                  <b>4 Days & 3 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -175,7 +181,9 @@ function MalaysiaHoneyMoon() {
                     <p>
                       ₹1,36,169 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/MalaysiaHoneymoonPlan2"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -191,18 +199,14 @@ function MalaysiaHoneyMoon() {
                 <img src={dubai_2} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>6 nights 7 days Relaxing United Arab Emirates attraction Tour Package for Couple</h5>
+                <h5>Captivating Malaysia Honeymoon Package From Hyderabad</h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
+                  <li>A romantic excursion to Batu Caves</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    Enjoy Genting Skyway cable car ride for panoramic views
                   </li>
-                  <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
-                  </li>
-                  <b>6 nights:  Dubai</b>
+                  <li>Adventure rides at Sunway Lagoon Theme Park</li>
+                  <b>5 Days & 4 Nights </b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -237,7 +241,9 @@ function MalaysiaHoneyMoon() {
                     <p>
                       ₹85,104 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/MalaysiaHoneymoonPlan3"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -253,18 +259,19 @@ function MalaysiaHoneyMoon() {
                 <img src={dubai_1} alt="" />
               </div>
               <div className="col-lg-8 col-md-6 col-sm-12 content-section">
-                <h5>5 nights 6 days United Arab Emirates Package for Couple with Miracle Garden - A Walk Through World’s Largest Natural Flower Garden</h5>
+                <h5>The beginning of a union with a trot around Malaysia</h5>
                 <ul>
-                  <li>James Bond One Day Trip By Long Tail Boat</li>
                   <li>
-                    Phi Phi island tour by Speedboat to marvel at colourful
-                    marine life and exotic coral reefs
+                    They say that the best things in life come in pairs. Now
+                    that the two of you are a pair of your own, maybe your
+                    honeymoon should reflect that, wouldn’t you say? Our
+                    Singapore-Malaysia honeymoon itinerary for 6 days will help
+                    you do just that. Malaysia and Singapore are known for being
+                    modern, well-developed nations that can provide for each one
+                    of your necessities. So rest assured that your honeymoon
+                    here will be spent comfortably.
                   </li>
-                  <li>
-                    Single delight -04 island with lunch by speedboat exclude
-                    island fee
-                  </li>
-                  <b>5 nights:  Dubai</b>
+                  <b>6 Days & 5 Nights</b>
                 </ul>
                 <div className="include-activity">
                   <div>
@@ -292,7 +299,9 @@ function MalaysiaHoneyMoon() {
                     <p>
                       ₹47,771 <span>/Person</span>
                     </p>
-                    <button className="view-deal">Customise</button>
+                    <Link to={"/MalaysiaHoneymoonPlan4"} className="nav-link">
+                      <button className="view-deal">View All Plan</button>
+                    </Link>
                   </div>
                 </div>
               </div>

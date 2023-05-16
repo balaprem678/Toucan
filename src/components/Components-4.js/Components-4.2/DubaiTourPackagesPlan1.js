@@ -89,7 +89,7 @@ export default function DubaiTourPackagesPlan1() {
       <Navigation />
 
       <div className="thailand-home">
-        <h4 className="head-2">DubaiHoneyMoon Vacation Packages</h4>
+        <h4 className="head-2">Dubai Tour Vacation Packages</h4>
         <h1 className="head-1">
           Discover ancient ruins and relaxing beach resorts and buddhist temples
         </h1>
@@ -104,7 +104,7 @@ export default function DubaiTourPackagesPlan1() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Dubai Honeymoon Packages</h1>
+          <h1 className="head-content">Dubai Tour Vacation Packages</h1>
           <p className="head-para-content">
             Planning to visit Dubai with your partner anytime soon? Choose Dubai
             Honeymoon Packages to explore Dubai and have the best travel

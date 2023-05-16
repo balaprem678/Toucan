@@ -132,7 +132,7 @@ export default function MalaysiaTourPackagesPlan3() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">MMalaysia Tour Packages Plan</h1>
+          <h1 className="head-content">Malaysia Tour Packages Plan</h1>
           <p className="head-para-content">
             Planning to visit Malaysia with your partner anytime soon? Choose
             Malaysia Honeymoon Packages to explore Malaysia and have the best

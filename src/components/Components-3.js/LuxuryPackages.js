@@ -30,13 +30,13 @@ function LuxuryPackages() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Family Tour Packages</h1>
+          <h1 className="head-content">Luxury Tour Packages</h1>
           <p className="head-para-content">
-            How can you perfect a Singapore honeymoon trip? Be it watching the
+            How can you perfect a Luxury Tour Packages trip? Be it watching the
             sunset at Changi Point Coastal walk, dining at soaring heights of
             Jewel Box, taking the cable car ride at Mount Faber Peak with your
             partner or relishing in the luxury of Marina Bay Sands, a perfect
-            Singapore honeymoon package can certainly adds up to couples
+            Luxury Tour package can certainly adds up to couples
             post-marital bliss. Be it taking a leisure walk in the lush greenery
             of the Botanical Gardens, unwinding at the beaches of Sentosa,
             indulging in luxury shopping at Orchard’s Road, or sipping luscious
@@ -48,14 +48,15 @@ function LuxuryPackages() {
             cruising away at Clarke Quay or taking a stroll down the Gardens of
             the bay for a view of the Supertree Grove, Singapore has a bit of
             everything to suit all kinds of honeymoon travellers. With
-            Pickyourtrail’s Singapore honeymoon packages, make your customisable
-            <strong>Singapore honeymoon packages</strong> special and make
+            Pickyourtrail’s Luxury Tour packages, make your
+            customisable
+            <strong>Luxury Tour packages</strong> special and make
             memories to cherish for a lifetime. Pickyourtrail also offers
             International Honeymoon Packages for other destinations!
           </p>
         </div>
       </div>
-      <div className="tour-packages">
+      {/* <div className="tour-packages">
         <div className="container ">
           <div className="tour-package-card margins">
             <div className="row">
@@ -109,7 +110,7 @@ function LuxuryPackages() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

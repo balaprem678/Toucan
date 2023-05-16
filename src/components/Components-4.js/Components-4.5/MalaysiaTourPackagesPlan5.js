@@ -103,7 +103,7 @@ export default function MalaysiaTourPackagesPlan5() {
       <Navigation />
 
       <div className="thailand-home">
-        <h4 className="head-2">Malaysia Vacation Plan</h4>
+        <h4 className="head-2">Malaysia Tour Vacation Packages</h4>
         <h1 className="head-1">
           Discover ancient ruins and relaxing beach resorts and buddhist temples
         </h1>
@@ -118,10 +118,10 @@ export default function MalaysiaTourPackagesPlan5() {
       </div>
       <div className="Thailand-content margin">
         <div className="container">
-          <h1 className="head-content">Malaysia Vacation Plan</h1>
+          <h1 className="head-content">Malaysia Tour Vacation Packages</h1>
           <p className="head-para-content">
             Planning to visit Malaysia with your partner anytime soon? Choose
-            Malaysia Vacation Plan to explore Malaysia and have the best travel
+            Malaysia Tour Vacation Packages to explore Malaysia and have the best travel
             experiences ever. This glamorous city has huge buildings,
             jaw-dropping architectural marvels, plenty of adventure parks,
             wonderful views from the desert, gigantic shopping malls and of
